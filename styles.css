@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+#navbar a:hover {
+    color: rgb(255, 252, 154);
+}
+#bgpic {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#bgpic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+#bgpic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+    z-index: -1;
+}
+#aboutme {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+#aboutme p {
+    margin: 0;
+}
+#aboutme p:first-child {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-weight: bold;
+}
+#aboutme p:last-child {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(255, 252, 154);
+    margin-top: 10px;
+}
+#profilepic img{
+    position: relative;
+    width: 500px;
+    margin-right: 100px;
+    height: auto;
+}
+#profilepic{
+    margin: 100px;
+    margin-left: 150px;
+    display: flex;
+
+}
+#abtme p:first-child{
+    color: rgb(55,57,54);
+    font-size: 2em;
+    font-weight: 600;
+}
+#abtme p:last-child{
+    color: rgb(55,57,54);
+    font-size: 1.5em;
+    line-height: 30px;
+    text-align: justify;
+}
+#fambg{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(55,57,54);
+    font-size: 2em;
+    font-weight: bold;
+}
+#fambg img{
+    width: 800px;
+    height: auto;
+}
+#hobb video{
+    background-color: rgb(55,57,54);
+    padding: 10px;
+}
+#hobb p{
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(55,57,54);
+    padding: 20px;
+    color: rgb(232, 238, 242);
+    display: inline;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#hobb{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#hobb img{
+    width: 400px;
+    background-color: rgb(55,57,54);
+    padding: 10px;
+}
+#valo img{
+    width: 400px;
+    height: 265px;
+}
+#draw img{
+    height: 265px;
+}
+#about{
+    background-color: rgb(55,57,54);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#education{
+    background-color: rgb(55,57,54);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#contact{
+    background-color: rgb(55,57,54);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#schools{
+    color: rgb(55,57,54);
+    font-size: 2em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#schools img{
+    width: 400px;
+    margin-left: 100px;
+}
+#elem{
+    background-color: rgb(255, 252, 154);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#highs{
+    background-color: rgb(255, 252, 154);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#highs img{
+    margin-left: 180px;
+}
+#morenohigh{
+    background-color: rgb(255, 252, 154);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#morenohigh img{
+    margin-left: 110px;
+}
+#colleges{
+    background-color: rgb(255, 252, 154);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#colleges img{
+    margin-left: 240px;
+}
+#cont{
+    color: rgb(55,57,54);
+    font-size: 2em;
+    font-weight: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cont img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+#cont img:hover {
+    transform: scale(1.1);
+}
+
+#icon{
+    flex-direction: row;
+    display: flex;
+}
+#icon img{
+    width: 80px;
+    height: auto;
+    margin-left: 50px;
+}
+#page img{
+    width: 300px;
+    height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    #cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #cont div {
+        margin-bottom: 20px;
+    }
+}
